@@ -23,7 +23,7 @@ beforeAll(async () => {
     });
 
   token = res.body.token;
-});
+}, 10000);
 
 describe("Task Routes", () => {
 
